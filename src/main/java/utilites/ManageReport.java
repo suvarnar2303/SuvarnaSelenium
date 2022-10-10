@@ -4,6 +4,10 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ManageReport {
+	public void Ok2()
+	{
+		go.click();
+	}
      
 	public static ExtentReports Report(String testCasename)
 	{
